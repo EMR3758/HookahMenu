@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hookah_menu/models/mix_data.dart'; 
+import 'package:hookah_menu/models/mix_data.dart';
 import 'package:hookah_menu/models/mix_model.dart';
 
 class AllMixesPage extends StatelessWidget {
@@ -18,7 +18,7 @@ class AllMixesPage extends StatelessWidget {
           centerTitle: false,
           flexibleSpace: SafeArea(
             child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 18),
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
