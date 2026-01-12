@@ -1,48 +1,54 @@
-🫧 Hookah & Chill App
+# 🫧 Hookah & Chill
 
-Hookah & Chill is a Flutter-based mobile application designed for hookah cafés and lounges to present their mix menus in a modern, visual, and interactive way.
+**Hookah & Chill** is a modern, visually focused **Flutter mobile application** developed for hookah cafés and lounges.  
+It allows users to explore hookah mixes, view ingredient ratios, and filter blends based on their preferences.
 
-The app allows users to explore hookah mixes, view detailed ingredient ratios, filter by preferences, and discover featured blends with an elegant UI.
+---
 
+## 🚀 Features
 
-🚀 Features
-	•	📋 Mix Menu
-	•	Browse all available hookah mixes
-	•	Categorized by tobacco type (Dark, Blonde, Cigar)
-	•	🔥 Featured Mixes
-	•	Highlighted mixes based on intensity and popularity
-	•	📊 Ingredient Details
-	•	Visual ingredient ratio display
-	•	Clear and readable flavor names
-	•	🔍 Search & Filter
-	•	Search mixes by name or description
-	•	Filter by tobacco type and intensity
-	•	📱 Clean UI
-	•	Card-based design
-	•	Smooth page transitions
-	•	🌙 Dark Mode Support
-	•	Adapts automatically to system theme
+### 📋 Mix Menu
+- Browse all available hookah mixes
+- Categorized by tobacco type  
+  *(Dark, Blonde, Cigar)*
 
+### 🔥 Featured Mixes
+- Highlighted mixes based on intensity and popularity
 
+### 📊 Ingredient Details
+- Visual ingredient ratio charts
+- Clear and readable flavor names
 
-🛠️ Technologies Used
-	•	Flutter
-	•	Dart
-	•	Material Design
-	•	fl_chart
-	•	MVC-inspired architecture
+### 🔍 Search & Filter
+- Search mixes by name or description
+- Filter by tobacco type and intensity
 
+### 📱 Clean UI
+- Card-based modern design
+- Smooth page transitions
+- Material Design compliant
 
+---
 
-📂 Project Structure
+## 🛠️ Technologies Used
+- **Flutter**
+- **Dart**
+- **Material Design**
+- **fl_chart**
+- **MVC-inspired architecture**
 
+---
+
+## 📂 Project Structure
+
+```text
 lib/
 │
 ├── components/
-│   ├── category_tile.dart
-│   ├── filter_bottom_sheet.dart
-│   ├── info_card.dart
-│   └── mix_card.dart
+│   ├── category_tile.dart        # Category cards
+│   ├── filter_bottom_sheet.dart  # Filter panel
+│   ├── info_card.dart            # Information cards
+│   └── mix_card.dart             # Mix list cards
 │
 ├── images/
 │   ├── home.png
@@ -50,51 +56,54 @@ lib/
 │   └── smoke.png
 │
 ├── models/
-│   ├── category_data.dart
-│   ├── flavor_data.dart
-│   ├── flavor_model.dart
-│   ├── mix_data.dart
-│   └── mix_model.dart
+│   ├── category_data.dart        # Category mock data
+│   ├── flavor_data.dart          # Flavor mock data
+│   ├── flavor_model.dart         # Flavor model
+│   ├── mix_data.dart             # Mix mock data
+│   └── mix_model.dart            # Mix model
 │
 ├── pages/
-│   ├── all_mixes_page.dart
-│   ├── filter_result_page.dart
-│   ├── home_page.dart
-│   ├── intro_page.dart
-│   └── mix_detail_page.dart
+│   ├── all_mixes_page.dart       # All mixes page
+│   ├── filter_result_page.dart   # Filter results page
+│   ├── home_page.dart            # Home page
+│   ├── intro_page.dart           # Intro / onboarding page
+│   └── mix_detail_page.dart      # Mix detail page
 │
-└── main.dart
+└── main.dart                     # Application entry point
+```
 
+---
 
-🎯 Use Cases
-	•	Hookah cafés & lounges
-	•	Digital hookah menus
-	•	QR menu systems
-	•	Mobile-first menu solutions
+## 🎯 Use Cases
+- 🏠 Hookah cafés & lounges
+- 📱 Digital hookah menus
+- 🔗 QR-based menu systems
+- 🚀 Mobile-first menu solutions
 
+---
 
+## 🧠 Future Improvements
+- ⭐ Favorite mixes
+- 🧾 Admin dashboard
+- ☁️ Firebase / cloud integration
+- 🌐 Multi-language support
+- 📱 Tablet & kiosk mode
 
-🧠 Future Improvements
-	•	⭐ Favorite mixes
-	•	🧾 Admin dashboard
-	•	☁️ Cloud (Firebase) integration
-	•	🌐 Multi-language support
-	•	📱 Tablet & kiosk mode
+---
 
+## 👨‍💻 Developers
 
+**Emirhan Özcan**  
+- Computer Engineering Student  
+- Flutter Developer  
 
-👨‍💻 Developers
-•	Emirhan Özcan
-    Computer Engineering Student
-    Flutter Developer
+**Emin Can Işık**  
+- Mobile Application Developer  
+- Flutter Developer  
 
-•	Emin Can Işık
-    Mobile Application Developer
-    Flutter Developer
+---
 
+## 📄 License
 
-
-📄 License
-
-This project is developed for educational and personal use.
-For commercial usage, please contact the developers.
+This project is developed for **educational and personal use**.  
+For **commercial use**, please contact the developers.
