@@ -33,7 +33,7 @@ class IntroPage extends StatelessWidget {
               // subtitle
               const Text(
                 'Dumanı takip et, keyfin tadını çıkar.',
-                style: TextStyle(fontSize: 16),
+                style: TextStyle(fontSize: 17),
                 textAlign: TextAlign.center,
               ),
 
@@ -51,13 +51,13 @@ class IntroPage extends StatelessWidget {
                     horizontal: 30,
                   ),
                   decoration: BoxDecoration(
-                    color: Colors.black,
+                    color: Colors.white24,
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: const Text(
                     'Keşfet',
                     style: TextStyle(
-                      color: Colors.white,
+                      color: Colors.black,
                       fontSize: 18,
                       fontWeight: FontWeight.w600,
                     ),

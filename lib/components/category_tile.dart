@@ -11,8 +11,8 @@ class CategoryTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
-      width: 100, // kutu genişliği
-      height: 100, // kutu yüksekliği
+      width: 100,
+      height: 100,
       decoration: BoxDecoration(
         color: Colors.grey[200],
         borderRadius: BorderRadius.circular(12),
