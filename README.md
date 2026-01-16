@@ -99,8 +99,16 @@ lib/
 
 **Emin Can Işık**  
 - Mobile Application Developer  
-- Flutter Developer  
+- Flutter Developer
 
+**Ozan Şahin** 
+- Mobile Application Developer  
+- Flutter Developer
+
+**Fatih Berat Okyay**
+- Mobile Application Developer  
+- Flutter Developer
+  
 ---
 
 ## 📄 License
